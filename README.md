@@ -1,2 +1,2 @@
-# SonnyMonroe.github.io
-Just a testing site to practice programming. 
+# CSS12Mins
+CSS 12 Mins Layout Draft
