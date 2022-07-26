@@ -1,6 +1,6 @@
 body {
     background-color: maroon;
-    font-family: Cambria, Cochin, serif, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 a {
@@ -13,7 +13,8 @@ h1, h2, h3 {
 }
 
 #container {
-    background-image: url("yellowline.jpg");
+    background-image: url(./diary/oldnotebook.jpg);
+    position: auto;
     width: 800px;
     margin-left: auto;
     margin-right: auto;
@@ -23,10 +24,11 @@ h1, h2, h3 {
 }
 
 #header {
-    background-image: url("yellowline.jpg");
-    color: rgb(0, 0, 0);
-    font-style: italic;
+    background-color: maroon;
+    color: white;
+    font-family:'Sedgwick Ave Display', cursive;
     text-align: center;
+    font-size: x-large;
 }
 
 #content {
@@ -64,10 +66,8 @@ h1, h2, h3 {
 }
 
 #buttons {
-
-    background-color:maroon;
-    background-image: url("yellowline.jpg");
-    padding-top: 10px;
+    background-color: maroon;
+    padding-top: 1px;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 10px;
@@ -78,9 +78,10 @@ h1, h2, h3 {
 
     font-weight: bold;
     color: rgb(250, 250, 250);
-    background-image: url("space3.jpg");
+    background-color: black;
     border-style: dashed;
     border-color: lightgray; 
     border-width: 1.5px;
     padding-bottom: 5px;
+    margin: 1px;
 }
