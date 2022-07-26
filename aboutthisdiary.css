@@ -1,0 +1,63 @@
+.nav {
+    height: 50px;
+    background: maroon;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+.nav div {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+}
+.nav ul {
+    position: absolute;
+    right: 5px;
+}
+.nav ul li {
+    display: inline-block;
+}
+.nav ul li a {
+    color: white;
+    padding: 5px;
+}
+body {
+    background: url("oldnotebook.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.about-content {
+    margin: 150px auto 0 auto;
+    width: 500px;
+}
+.about-content h1 {
+    text-align: center;
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: maroon;
+}
+.about-content p {
+text-align: justify;
+font-family: 'Sedgwick Ave Display';
+font-size: larger;
+opacity: 0.8;
+}
+
+.section {
+    border-color: white;
+    border-width: 5px;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 30px;
+    color: maroon;
+    text-align: center;
+    padding: 5px
+}
+
+ .card1 { 
+    position: absolute;
+    background:url(space4.jpg);
+    color: white
+    
+
+    
+}
