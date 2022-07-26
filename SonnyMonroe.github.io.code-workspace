@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "..\\SonnyMonroe.github.io"
+		}
+	],
+	"settings": {
+		"github.codespaces.usePortForwardingServiceForHTTPS": false,
+		"github-enterprise.uri": "https://github.com/SonnyMonroe/SonnyMonroe.github.io",
+		"github.gitAuthentication": false,
+		"projectManager.git.baseFolders": [
+			"SonnyMonroe.github.io"
+		]
+	}
+}

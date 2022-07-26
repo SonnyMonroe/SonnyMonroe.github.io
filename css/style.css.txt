@@ -1,0 +1,15 @@
+#style.css
+
+body {
+    background-color: #EEEEEE; 
+}
+
+#container {
+    background-color: #white; 
+}
+
+#header {
+    background-color: blue;
+    color: white;
+}
+    
