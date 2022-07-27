@@ -1,6 +1,7 @@
 body {
     background-color: maroon;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black; 
 }
 
 a {
@@ -48,10 +49,6 @@ h1, h2, h3 {
     padding: 0;
 }
 
-#nav .selected {
-    font-weight: bold;
-}
-
 #main {
     width: 600px;
     float: right;
@@ -67,7 +64,7 @@ h1, h2, h3 {
 
 #buttons {
     background-color: maroon;
-    padding-top: 1px;
+    padding-top: 10px;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 10px;
@@ -82,10 +79,17 @@ h1, h2, h3 {
     background-color: black;
     border-style: dashed;
     border-color: rgb(233,213,178); 
-    border-width: 1.5px;
-    padding-bottom: 5px;
+    border-width: 2px;
+    padding-bottom: auto;
     margin: 1px;
 }
+
+.btn-group-vertical {
+    font-family: ;
+    margin: 5px;
+
+}
+
 
 .btn-group {
     color:rgb(233,213,178)
