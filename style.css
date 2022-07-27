@@ -57,8 +57,8 @@ h1, h2, h3 {
 #footer {
     clear:both;
     padding: 10px;
-    background-color: #999;
-    color: white;
+    background-color: maroon;
+    color: rgb(233, 213, 178);
     text-align: right;
 }
 
