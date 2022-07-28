@@ -50,14 +50,64 @@ opacity: 0.8;
     font-size: 30px;
     color: maroon;
     text-align: center;
-    padding: 5px
+    padding: 5px;
 }
 
- .card1 { 
+
+
+
+.card {
+
+    inline-size: 380px; /* might need to use gird to center properly*/
+    overflow: hidden;
+    display: inline-block;
+    -webkit-column-break-inside: avoid;
+    border-style: dashed;
+    border-color: black;
+    margin: 10px;
+    background-image: url(./yellowline4.jpg); /* adds image to card*/
+}
+
+
+.card-deck { 
+    display: inline-block;
     position: absolute;
-    background:url(space4.jpg);
-    color: white
-    
-
+    display: flex;
+    font-family: 'Sedgwick Ave Display', cursive;
+    margin: 10px;
     
 }
+
+.card-img-top {
+    background-color: maroon;
+    /*background-image: url(./space4.jpg); / tiny image on card. maybe use icon*/
+    
+
+}
+
+.card-columns {
+    display: inline-block;
+    
+
+
+}
+
+.card-title {
+
+    font-size: larger;
+
+}
+
+.card-footer {
+    color: rgb(233,213,178); /* changes color of text when it was last updated*/
+    background: maroon
+    
+}
+
+/*article is for everything under shit post */
+article {
+    text-align: center;
+    padding: 5px;
+
+}
+
