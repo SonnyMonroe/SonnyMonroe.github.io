@@ -66,6 +66,7 @@ opacity: 0.8;
     border-color: black;
     margin: 10px;
     background-image: url(./yellowline4.jpg); /* adds image to card*/
+    background-position: right;
 }
 
 
@@ -93,15 +94,14 @@ opacity: 0.8;
 }
 
 .card-title {
-
     font-size: larger;
 
 }
 
 .card-footer {
     color: rgb(233,213,178); /* changes color of text when it was last updated*/
-    background: maroon
-    
+    background: maroon; 
+        
 }
 
 /*article is for everything under shit post */
