@@ -12,7 +12,7 @@ body {
     align-items: center;
     background: #353535;
     font-size: 3rem;
-    color: #fff;
+    color: rgb(0, 0, 0);
     box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
     height: 100%;
     width: 100%;
@@ -69,9 +69,11 @@ body {
     animation-fill-mode: backwards;
   }
   
-  .card:nth-child(1) {
+  .card:nth-child(a) {
     grid-area: a;
     animation-delay: calc(1 * var(--stagger-delay));
+    background-image:url('./images/spreadsheet.jpg');
+    
   }
   .card:nth-child(2) {
     grid-area: b;
