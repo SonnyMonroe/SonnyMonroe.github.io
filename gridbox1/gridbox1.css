@@ -1,8 +1,39 @@
-container {
-
+* { 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 
 body {
-    shoot 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: steelblue;
 }
+
+.container {
+    max-width: 960px;
+    margin: 100px auto;
+    padding: 10px;
+}
+
+.item {
+    background-color: steelblue;
+    color: silver;
+    font-size: 20px;
+    padding: 20px;
+    border: skyblue 1px solid;
+}
+
+/* #1 line 1: * is like a reset. 
+   #2 right click "open shared view" which will make the changes happen in real-time for the browser I am working in.  
+   #3 
+
+
+
+
+
+
+*/
