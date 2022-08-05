@@ -6,13 +6,14 @@ body {
 }
 
 a {
-    text-decoration: none;
-    color: rgb(233, 213, 178); 
+    text-decoration: transparent; /* makes it so when you hover over a hyperlink button, there wont be an underline or a blue text. */
+    color: rgb(233, 213, 178);
 }
 
 h1, h2, h3 {
     margin: 0;
-    font-weight: bold; /* Makes all of the header tags bold */
+    font-family:'Sedgwick Ave Display', cursive;
+
 }
 
 #container {
@@ -35,6 +36,7 @@ h1, h2, h3 {
 }
 
 #content {
+
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
@@ -64,7 +66,7 @@ h1, h2, h3 {
     text-align: right;
 }
 
-#buttons {
+#buttons {      /* the box around the top buttons */ 
     background-color: maroon;
     padding-top: 10px;
     margin-left: auto;
@@ -79,11 +81,22 @@ h1, h2, h3 {
     font-weight: bold;
     color: rgb(233, 213, 178);
     background-color: black;
-    border-style: dashed;
+    border-style: solid;
     border-color: rgb(233, 213, 178); 
-    border-width: 2px;
+    border-width: 3px;
     padding-bottom: auto;
     margin: 1px;
+}
+
+.btn :hover {
+    background-color: transparent;
+    margin: 10px;
+    color: rgb(233, 213, 178);
+}
+
+.btn-group-vertical {
+    row-gap: 5px; 
+    /* changes space between the buttons */
 }
 
 .btn-group-vertical :hover {
@@ -91,7 +104,6 @@ h1, h2, h3 {
     color: rgb(233, 213, 178);
     background-color: maroon;
 }
-
 
 a.btn-group :hover {
     color:rgb(233,213,178);
