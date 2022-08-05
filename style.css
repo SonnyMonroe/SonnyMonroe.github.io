@@ -2,7 +2,7 @@
 body {
     background-color: maroon;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: black; 
+    color: black;
 }
 
 a {
@@ -12,6 +12,7 @@ a {
 
 h1, h2, h3 {
     margin: 0;
+    font-weight: bold; /* Makes all of the header tags bold */
 }
 
 #container {
@@ -70,11 +71,11 @@ h1, h2, h3 {
     margin-right: auto;
     padding-bottom: 10px;
     text-align: center;
+    
 }
 
 
 .btn { 
-
     font-weight: bold;
     color: rgb(233, 213, 178);
     background-color: black;
@@ -92,7 +93,7 @@ h1, h2, h3 {
 }
 
 
-a.btn-group:hover {
+a.btn-group :hover {
     color:rgb(233,213,178);
     background-color: maroon;
 }
