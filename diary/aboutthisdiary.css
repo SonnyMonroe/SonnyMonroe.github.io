@@ -54,16 +54,15 @@ opacity: 0.8;
 }
 
 
-
-
 .card {
 
     inline-size: 380px; /* might need to use gird to center properly*/
     overflow: hidden;
     display: inline-block;
     -webkit-column-break-inside: avoid;
-    border-style: dashed;
+    border-style: solid;
     border-color: black;
+    border-width: 10px;
     margin: 10px;
     background-image: url(./yellowline4.jpg); /* adds image to card*/
     background-position: right;
@@ -74,9 +73,9 @@ opacity: 0.8;
     display: inline-block;
     position: absolute;
     display: flex;
-    font-family: 'Sedgwick Ave Display', cursive;
-    margin: 10px;
-    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px;    
+    align-items: flex-start; /* this makes everything in the card deck align at the bottom */
 }
 
 .card-img-top {
@@ -102,7 +101,7 @@ opacity: 0.8;
     /*right here
     color: rgb(233,213,178); /* changes color of text when it was last updated*/
     color:rgb(233, 213, 178);
-    background: maroon; 
+    background: maroon;
         
 }
 
