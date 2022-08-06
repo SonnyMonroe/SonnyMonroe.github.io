@@ -95,7 +95,7 @@ h1, h2, h3 {
 }
 
 .btn-group-vertical {
-    row-gap: 5px; 
+    row-gap: 10px;
     /* changes space between the buttons */
 }
 

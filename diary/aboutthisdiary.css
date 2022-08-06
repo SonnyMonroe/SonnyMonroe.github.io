@@ -9,7 +9,7 @@
     left: 0;
     padding: 15px;
     font-size: 20px;
-    color: white;
+    color: rgb(233, 213, 178);
 }
 .nav ul {
     position: absolute;
@@ -19,7 +19,7 @@
     display: inline-block;
 }
 .nav ul li a {
-    color: white;
+    color: rgb(233, 213, 178);
     padding: 5px;
 }
 body {
@@ -56,7 +56,7 @@ opacity: 0.8;
 
 .card {
 
-    inline-size: 380px; /* might need to use gird to center properly*/
+    inline-size: auto; /* might need to use gird to center properly*/
     overflow: hidden;
     display: inline-block;
     -webkit-column-break-inside: avoid;
@@ -67,6 +67,11 @@ opacity: 0.8;
     background-image: url(./yellowline4.jpg); /* adds image to card*/
     background-position: right;
 }
+
+.card-text {
+    color: blue;
+}
+
 
 
 .card-deck { 
@@ -79,6 +84,7 @@ opacity: 0.8;
 }
 
 .card-img-top {
+    
     background-color: maroon;
     /*background-image: url(./space4.jpg); / tiny image on card. maybe use icon*/
     
@@ -94,6 +100,7 @@ opacity: 0.8;
 
 .card-title {
     font-size: larger;
+
 
 }
 
@@ -112,3 +119,7 @@ article {
 
 }
 
+/*.card-body {
+  color: maroon;
+} 
+*/
