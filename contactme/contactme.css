@@ -11,8 +11,8 @@ body {
 
 .grid-container {
 
-    height: 500px;
-    width: 750px;
+    height: 750px;
+    width: 500px;
     display: grid; /* This will show what you named your items in grid when testing on web */ 
     border-style: solid;
     border-width: 10px;
@@ -29,18 +29,12 @@ body {
 
 .grid-item {
     display: grid;
-   border: dotted;
+    border: dotted;
     color: wheat;
-    
+    padding: 10px;    
     
 }
 
-.grid-container-grid-item-header {
-
-    border: 100px;
-    color: black;
-    
-}
 
 
 /* .grid-item-footer: {
