@@ -1,5 +1,5 @@
 body {
-
+    padding: 5%; /* makes it so the marron in the background shows. Different from the grid */ 
     background-color: maroon;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white; 
@@ -7,22 +7,35 @@ body {
 
 }
 
+
+
 .grid-container {
     display: grid; /* This will show what you named your items in grid when testing on web */ 
-    gap: 50px;
-    grid-template-columns: 200px 400px;
     border-style: solid;
+    border-width: 10px;
     border-color: burlywood;
+    padding: 10%; 
+    gap: 25px;
+    grid-template-columns: 200px 100px 500px;
+    grid-template-rows: 200px 100px 500px;
     color: white;
     background-color: steelblue;
     
 }
 
-.grid-item-footer {
+.grid-container item-header {
+
+    border: 100px;
+    color: black;
+    
+}
+
+
+/* .grid-item-footer: {
+    border: 10px;
+    border-color: darkgoldenrod;
     align-items: start;
      height: 1000px;
      width: 10px;
 
-
-
-}
+} */ 
