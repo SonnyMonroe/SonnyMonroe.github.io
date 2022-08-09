@@ -10,14 +10,17 @@ body {
 
 
 .grid-container {
+
+    height: 500px;
+    width: 750px;
     display: grid; /* This will show what you named your items in grid when testing on web */ 
     border-style: solid;
     border-width: 10px;
     border-color: burlywood;
     padding: 10%; 
     gap: 25px;
-    grid-template-columns: 200px 100px 500px;
-    grid-template-rows: 200px 100px 500px;
+    grid-template-columns: 200px, 100px;
+    grid-template-rows: 200px, 100px;
     color: white;
     background-color: steelblue;
     
@@ -32,7 +35,7 @@ body {
     
 }
 
-.grid-container:grid-item-header {
+.grid-container-grid-item-header {
 
     border: 100px;
     color: black;
