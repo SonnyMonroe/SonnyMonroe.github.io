@@ -106,7 +106,7 @@ h1, h2, h3 {
     background-color: maroon;
 }
 
-a.btn-group :hover {
+a.btn-group:hover {
     color:rgb(233,213,178);
     background-color: maroon;
 }
