@@ -1,4 +1,6 @@
 body {
+
+    margin:auto;
     padding: 5%; /* makes it so the marron in the background shows. Different from the grid */ 
     background-color: maroon;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -29,12 +31,12 @@ body {
 
 .grid-item {
     display: grid;
-    border: dotted;
-    color: wheat;
+    border: dotted wheat 5px;
     padding: 10px;    
     
 }
 
+.
 
 
 /* .grid-item-footer: {
