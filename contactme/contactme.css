@@ -1,8 +1,28 @@
+body {
 
-.grid-container {
-    display: grid;
-    grid-template-columns: 200px 400px;
-    color: white;
-    background-color: steelblue;
+    background-color: maroon;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white; 
+
+
 }
 
+.grid-container {
+    display: grid; /* This will show what you named your items in grid when testing on web */ 
+    gap: 50px;
+    grid-template-columns: 200px 400px;
+    border-style: solid;
+    border-color: burlywood;
+    color: white;
+    background-color: steelblue;
+    
+}
+
+.grid-item-footer {
+    align-items: start;
+     height: 1000px;
+     width: 10px;
+
+
+
+}
