@@ -23,7 +23,16 @@ body {
     
 }
 
-.grid-container item-header {
+
+.grid-item {
+    display: grid;
+   border: dotted;
+    color: wheat;
+    
+    
+}
+
+.grid-container:grid-item-header {
 
     border: 100px;
     color: black;
