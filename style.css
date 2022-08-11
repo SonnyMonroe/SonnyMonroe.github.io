@@ -36,7 +36,7 @@ h1, h2, h3 {
     font-size: x-large;
 }
 
-#content {
+#content {      /*padding at the top of the diary content page */ 
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
