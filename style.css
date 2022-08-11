@@ -37,7 +37,6 @@ h1, h2, h3 {
 }
 
 #content {
-
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
@@ -57,10 +56,19 @@ h1, h2, h3 {
 #main {
     width: 600px;
     float: right;
+    /* Below are the border properties inside the diary image page */ 
+    border-style: groove;
+    border-radius: 10px;
+    border-color: rgb(233, 213, 178);
+    border-width: 5px;
+    padding-top: 2.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2.5%;
 }
 
 #footer {
-    clear:both;
+    clear: both;
     padding: 10px;
     background-color: maroon;
     color: rgb(233, 213, 178);
@@ -98,6 +106,7 @@ h1, h2, h3 {
 .btn-group-vertical {
     row-gap: 10px;
     /* changes space between the buttons */
+    
 }
 
 .btn-group-vertical :hover {
