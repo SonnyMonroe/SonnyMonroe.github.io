@@ -12,9 +12,8 @@ body {
 .grid-container {
 
     display: grid; /* This will show what you named your items in grid when testing on web */ 
-    grid-template-columns: 200px, 100px;
-    grid-template-rows: 200px, 100px;
-    grid-auto-rows: minmax(150px, auto);
+    grid-template-columns: 200px, 250px;
+    grid-auto-rows: minmax(250px, auto);
     border-style: solid;
     border-width: 10px;
     border-color: burlywood;
@@ -23,11 +22,11 @@ body {
     background-color: steelblue;    
 
     grid-template-areas: 
-    "header header"
-    "reddit card"
-    "twitter card"
-    "github card"
-    "footer footer"
+    "header header header"
+    "reddit twitter github" 
+    "reddit twitter github"
+    "reddit twitter github"
+    "footer footer footer"
 }
 
 
@@ -71,6 +70,7 @@ body {
 
 .grid-item-3 {
  grid-area: twitter;
+ 
  /*
   grid-row-start: 2;
   grid-row-end: 4;  
@@ -95,11 +95,3 @@ body {
  
 
 }
-
-/* .grid-item-footer: {
-    border: 10px;
-    border-color: darkgoldenrod;
-    align-items: start;
-     height: 1000px;
-     width: 10px;
-}*/
