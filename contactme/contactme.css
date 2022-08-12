@@ -1,13 +1,18 @@
 body {
     
     margin: auto;
-    padding: 5%; /* makes it so the marron in the background shows. Different from the grid */ 
+    padding: 25px; /* makes it so the marron in the background shows. Different from the grid */ 
     background-color: maroon;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white; 
 
 }
 
+h1 {
+    font-family: 'Sedgwick Ave Display', cursive;
+    color:rgb(233,213,178);
+    text-align: center;
+}
 
 .grid-container {
 
@@ -19,7 +24,7 @@ body {
     border-color: burlywood;
     grid-gap: 20px;
     color: white;
-    background-color: steelblue;    
+    background-color: maroon;    
 
     grid-template-areas: 
     "header header header"
@@ -31,12 +36,13 @@ body {
 
 
 .grid-item {
+    text-align: center;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
     display: grid;
-    border: groove wheat 15px;
+    border: groove rgb(233,213,178) 15px;
     padding: 10px;  
     
 }
@@ -44,6 +50,8 @@ body {
 .grid-item-1 {
 
     grid-area: header;
+    background-color: maroon;
+   
 
     /*
     grid-template-columns: 200px, 100px;
@@ -62,6 +70,7 @@ body {
 .grid-item-2 {
 
     grid-area: reddit;
+    background-color: orange;
   
 
     /* grid-template-columns: 20px, 100px;
@@ -92,6 +101,7 @@ body {
 .grid-item-5 {
 
     grid-area: footer;
+    background-color: maroon;
 
     /*
     display: grid;
