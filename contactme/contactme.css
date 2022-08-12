@@ -22,7 +22,12 @@ body {
     color: white;
     background-color: steelblue;    
 
-    grid-template-areas: "header header"
+    grid-template-areas: 
+    "header header"
+    "reddit card"
+    "twitter card"
+    "github card"
+    "footer footer"
 }
 
 
@@ -36,7 +41,7 @@ body {
 .grid-item-1 {
 
     grid-area: header;
-    
+
     /*
     grid-template-columns: 200px, 100px;
     grid-template-rows: 10px;
@@ -52,30 +57,41 @@ body {
 }
 
 .grid-item-2 {
-    grid-template-columns: 20px, 100px;
+
+    grid-area: reddit;
+
+    /* grid-template-columns: 20px, 100px;
     grid-template-rows: 10px;
     color:orange;
     border-style: solid;
     border-width: 10px;
-    
+    */
 
 }
 
 .grid-item-3 {
+ grid-area: twitter;
+ /*
   grid-row-start: 2;
   grid-row-end: 4;  
-
+ */
 }
 
 .grid-item-4 {
+    grid-area: github;
 
 }
 
 .grid-item-5 {
+
+    grid-area: footer;
+
+    /*
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 3fr;
     background-color: olive;
+    */
  
 
 }
