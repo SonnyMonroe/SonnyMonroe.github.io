@@ -55,22 +55,36 @@ opacity: 0.8;
 
 
 .card {
-
-    inline-size: auto; /* might need to use gird to center properly*/
+    inline-size: auto;  /* might need to use gird to center properly*/
     overflow: hidden;
     display: inline-block;
     -webkit-column-break-inside: avoid;
-    border-style: solid;
-    border-color: black;
+    border-style: groove;
+    border-color: rgb(233, 213, 178);
     border-width: 10px;
     margin: 10px;
     background-image: url(./yellowline4.jpg); /* adds image to card*/
     background-position: right;
+    border-radius: 16px; 
+    box-shadow: -1rem 0 3rem #000;
+  
 }
 
 .card-text {
     color: blue;
+    max-block-size: 100px;
+    min-block-size: 100px;
+    word-wrap: break-word;
 }
+
+.card-body {
+
+    color: blue;
+    max-block-size: 200px;
+    min-block-size: 200px;
+    word-wrap: break-word;
+}
+
 
 
 
@@ -81,6 +95,7 @@ opacity: 0.8;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 10px;    
     align-items: flex-start; /* this makes everything in the card deck align at the bottom */
+    
 }
 
 .card-img-top {
