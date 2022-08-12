@@ -13,11 +13,11 @@ body {
 
     display: grid; /* This will show what you named your items in grid when testing on web */ 
     grid-template-columns: 200px, 250px;
-    grid-auto-rows: minmax(250px, auto);
+    grid-auto-rows: minmax(75px, auto);
     border-style: solid;
-    border-width: 10px;
+    border-width: 15px;
     border-color: burlywood;
-    grid-gap: 25px;
+    grid-gap: 20px;
     color: white;
     background-color: steelblue;    
 
@@ -31,9 +31,13 @@ body {
 
 
 .grid-item {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: grid;
     border: groove wheat 15px;
-    padding: 10px;    
+    padding: 10px;  
     
 }
 
@@ -58,6 +62,7 @@ body {
 .grid-item-2 {
 
     grid-area: reddit;
+  
 
     /* grid-template-columns: 20px, 100px;
     grid-template-rows: 10px;
@@ -69,7 +74,7 @@ body {
 }
 
 .grid-item-3 {
-    
+
  grid-area: twitter;
  
  /*
