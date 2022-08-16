@@ -139,5 +139,8 @@ h1 {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: transparent;
+    color: rgb(233,213,178);
+    text-align: center;
+    
 }
