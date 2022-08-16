@@ -2,11 +2,15 @@ body {
     background-color: maroon;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
+
+
+
 }
 
 a {
     text-decoration: transparent; /* makes it so when you hover over a hyperlink button, there wont be an underline or a blue text. */
     color: rgb(233, 213, 178);
+
 }
 
 h1, h2, h3 {
@@ -14,11 +18,12 @@ h1, h2, h3 {
     font-family:'Sedgwick Ave Display', cursive;
     font-stretch: wider;
     font-weight: light;
+
 }
 
 
 #container {
-    background-image: url(./diary/oldnotebook.jpg);
+    background-image: url(./diary/oldnotebook.jpg); 
     position: auto;
     width: 800px;
     margin-left: auto;
@@ -26,6 +31,7 @@ h1, h2, h3 {
     margin-top: auto;
     margin-bottom: auto;
     padding: auto;
+    border-radius: 100px;
 }
 
 #header {
@@ -34,23 +40,36 @@ h1, h2, h3 {
     font-family:'Sedgwick Ave Display', cursive;
     text-align: center;
     font-size: x-large;
+
+
+
+
 }
 
 #content {      /*padding at the top of the diary content page */ 
+   
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;  
+    border-radius: 100px;
+    
+
+    
 }
 
 #nav {
     width: 180px;
     float: left;
-}
+
+} 
 
 #nav ul {
     list-style-type: none;
-    padding: 0;
+    padding: 10px;
+
+
+
 }
 
 #main {
@@ -58,13 +77,15 @@ h1, h2, h3 {
     float: right;
     /* Below are the border properties inside the diary image page */ 
     border-style: groove;
-    border-radius: 10px;
     border-color: rgb(233, 213, 178);
     border-width: 5px;
     padding-top: 2.5%;
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 2.5%;
+    border-radius: 16px;
+
+
 }
 
 #footer {
@@ -82,6 +103,8 @@ h1, h2, h3 {
     margin-right: auto;
     padding-bottom: 10px;
     text-align: center;
+
+
     
 }
 
@@ -95,6 +118,7 @@ h1, h2, h3 {
     border-width: 3px;
     padding-bottom: auto;
     margin: 1px;
+
 }
 
 .btn :hover {
